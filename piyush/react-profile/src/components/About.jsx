@@ -1,4 +1,3 @@
-import React from "react";
 
 const AboutSection = () => (
   <section id="about" className="mb-5 pb-4 border-bottom">
