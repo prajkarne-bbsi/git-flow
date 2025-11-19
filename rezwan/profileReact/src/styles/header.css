@@ -1,0 +1,29 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+header .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.profile .pic {
+  border: 2px solid #000;
+  background-color: #000;
+  width: clamp(60px, 10vw, 100px);
+  height: clamp(60px, 10vw, 100px);
+  border-radius: 50%;
+
+}
+
+header nav {
+  display: flex;
+  gap: 10px;
+}
