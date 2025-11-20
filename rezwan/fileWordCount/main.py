@@ -12,7 +12,7 @@ def get_word_count_from_file(file):
 
 
 def main():
-  print(get_word_count_from_file('file2.txt'))
+  print(get_word_count_from_file('./file.txt'))
 
 
 main()
