@@ -1,0 +1,40 @@
+Code Smells
+Code smells are key signs that refactoring is necessary. In the
+process of refactoring, we get rid of smells, enabling further
+development of the application with equal or greater speed.
+
+The lack of regular refactoring, can lead to a complete paralysis 
+of a project over time, wasting a few years of development and requiring 
+you to spend several more years to rewrite it from scratch.
+Therefore, it is necessary to get rid of code smells while they
+are still small.
+
+Bloaters
+Bloaters are code, methods and classes that have increased to
+such gargantuan proportions that they’re hard to work with.
+Usually these smells don’t crop up right away, rather they
+accumulate over time as the program evolves (and especially
+when nobody makes an effort to eradicate them)
+
+Long Methods
+A method contains too many lines of code. Generally, any
+method longer than ten lines should make you start asking
+questions.
+
+Large class
+A class contains many fields/methods/lines of code.
+
+Primitive Obsession
+Use of primitives instead of small objects for simple tasks
+(such as currency, ranges, special strings for phone numbers, etc.)
+Use of constants for coding information (such as a constant
+USER_ADMIN_ROLE = 1 for referring to users with administrator rights.)
+Use of string constants as field names for use in data arrays.
+
+Long Parameter List
+More than three or four parameters for a method
+
+Data Clumps
+Sometimes different parts of the code contain identical groups
+of variables (such as parameters for connecting to a database).
+These clumps should be turned into their own classes
